@@ -1,5 +1,4 @@
 ## Got to: %USERPROFILE%\.vscode\extensions\
-## Create Folder: sagar.elementor-quick-snippets-0.0.1
 
 
 # elementor-quick-snippets
