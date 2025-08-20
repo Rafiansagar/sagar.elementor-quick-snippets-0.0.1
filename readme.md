@@ -1,3 +1,7 @@
+## Got to: %USERPROFILE%\.vscode\extensions\
+## Create Folder: sagar.elementor-quick-snippets-0.0.1
+
+
 # elementor-quick-snippets
 
 This is a elementor quick snippets extension. All controls and condition with custom control are available here.
