@@ -659,6 +659,7 @@
             "\t[",
             "\t\t'label' => esc_html__( '$2', 'rsaddon' ),",
             "\t\t'type' => Controls_Manager::HEADING,",
+            "\t\t'classes' => 'rs-control-type-heading',",
             "\t\t'separator' => 'before',",
             "\t]",
             ");"
