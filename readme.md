@@ -1,5 +1,11 @@
-## Got to: C:\Users\<USERNAME>\.vscode\extensions
-
+## Got to:
+```
+C:\Users\USERNAME\.vscode\extensions
+```
+or
+```
+%USERPROFILE%\.vscode\extensions\
+```
 
 # elementor-quick-snippets
 
