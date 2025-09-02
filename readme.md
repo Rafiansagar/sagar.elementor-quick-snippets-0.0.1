@@ -6,6 +6,7 @@ or
 ```
 %USERPROFILE%\.vscode\extensions\
 ```
+Put "sagar.elementor-quick-snippets-0.0.1" file here.
 
 # elementor-quick-snippets
 
