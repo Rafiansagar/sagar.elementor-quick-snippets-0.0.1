@@ -1,4 +1,4 @@
-## Got to: %USERPROFILE%\.vscode\extensions\
+## Got to: C:\Users\<USERNAME>\.vscode\extensions
 
 
 # elementor-quick-snippets
