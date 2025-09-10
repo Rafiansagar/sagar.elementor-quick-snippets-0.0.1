@@ -12,10 +12,6 @@ Put "sagar.elementor-quick-snippets-0.0.1" folder here.
 
 This is a elementor quick snippets extension. All controls and condition with custom control are available here.
 
-## Setup & Usage
-
-* Install this package from the [Extension Marketplace](https://marketplace.visualstudio.com/VSCode).
-
 #### Section Control
 
 Trigger | Description
