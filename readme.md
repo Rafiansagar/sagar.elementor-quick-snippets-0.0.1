@@ -205,3 +205,5 @@ elc_button_third_markup | Button Third Markup
 elc_repeater_markup | Repeater Markup
 elc_repeater_multilevel | Repeater Multi Level
 elc_repeater_multilevel_markup | Repeater Multi Level Markup
+elc_position_maker | Position Maker Controls
+elc_flex_block_control | Display Flex/Block Related Control
