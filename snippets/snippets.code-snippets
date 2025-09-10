@@ -2989,6 +2989,7 @@
             "\t\t'label_on' => esc_html__( 'Custom', 'rsaddon' ),",
             "\t\t'return_value' => 'yes',",
             "\t\t'default' => 'no',",
+            "\t\t'separator' => 'before',",
             "\t]",
             ");",
             "",
