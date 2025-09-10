@@ -2863,7 +2863,7 @@
         "description": "Elementor Custom Control: Link Markup"
     },
     "Elementor Custom Control: Flex Control": {
-        "prefix": "elc_flex_block_control",
+        "prefix": "elc_display_css_control",
         "body": [
             "",
             "\\$this->add_responsive_control(",
@@ -2975,7 +2975,7 @@
             "\t]",
             ");"
         ],
-        "description": "Elementor Custom Control: CSS Flex/Block Control"
+        "description": "Elementor Custom Control: Display CSS Control e.g. flex,block"
     },
     "Elementor Custom Control: Position Maker": {
         "prefix": "elc_position_maker",
