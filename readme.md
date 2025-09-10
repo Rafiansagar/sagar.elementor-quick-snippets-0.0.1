@@ -206,4 +206,4 @@ elc_repeater_markup | Repeater Markup
 elc_repeater_multilevel | Repeater Multi Level
 elc_repeater_multilevel_markup | Repeater Multi Level Markup
 elc_position_maker | Position Maker Controls
-elc_flex_block_control | Display Flex/Block Related Control
+elc_display_css_control | Display CSS Control e.g. flex,block
