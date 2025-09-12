@@ -4268,4 +4268,26 @@
         ],
         "description": "Elementor Custom Control: Repeater Multi Level Markup"
     },
+    // Render Attribute
+    "Elementor Markup: Add Render Attribute": {
+        "prefix": "elc_add_render_attr",
+        "body": [
+            "\\$this->add_render_attribute(",
+            "\t'$1',",
+            "\t[",
+            "\t\t'class' => [",
+            "\t\t\t'$2',",
+            "\t\t],",
+            "\t]",
+            ");"
+        ],
+        "description": "Elementor add_render_attribute with class"
+    },
+    "Elementor Markup: Print Render Attribute": {
+        "prefix": "elc_print_render_attr",
+        "body": [
+            "<?php \\$this->print_render_attribute_string( '$1' ); ?>"
+        ],
+        "description": "Elementor print_render_attribute_string"
+    }
 }
