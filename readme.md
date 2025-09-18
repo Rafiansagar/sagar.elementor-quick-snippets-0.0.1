@@ -203,5 +203,6 @@ elc_repeater_multilevel | Repeater Multi Level
 elc_repeater_multilevel_markup | Repeater Multi Level Markup
 elc_position_maker | Position Maker Controls
 elc_display_css_control | Display CSS Control e.g. flex,block
+elc_object_fit_control | Object Fit Control for images and videos
 elc_add_render_attr | Markup: Add Render Attribute
 elc_print_render_attr | Markup: Print Render Attribute
