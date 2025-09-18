@@ -2862,6 +2862,7 @@
         ],
         "description": "Elementor Custom Control: Link Markup"
     },
+    // Display controls for flexbox layout
     "Elementor Custom Control: Flex Control": {
         "prefix": "elc_display_css_control",
         "body": [
@@ -2977,6 +2978,7 @@
         ],
         "description": "Elementor Custom Control: Display CSS Control e.g. flex,block"
     },
+    // Position controls for absolute, relative position
     "Elementor Custom Control: Position Maker": {
         "prefix": "elc_position_maker",
         "body": [
@@ -3084,6 +3086,57 @@
             "\\$this->end_popover();"
         ],
         "description": "Elementor Custom Control: Position Maker"
+    },
+    // Object Fit Control for images and videos
+    "Elementor Markup: Add Object Fit Control": {
+        "prefix": "elc_object_fit_control",
+        "body": [
+            "\\$this->add_control(",
+            "\t'$1_object_fit',",
+            "\t[",
+            "\t\t'label' => esc_html__( 'Object Fit', 'rsaddon' ),",
+            "\t\t'type' => Controls_Manager::SELECT,",
+            "\t\t'default' => '',",
+            "\t\t'options' => [",
+            "\t\t\t'' => esc_html__( 'Default', 'rsaddon' ),",
+            "\t\t\t'cover' => esc_html__( 'Cover', 'rsaddon' ),",
+            "\t\t\t'contain' => esc_html__( 'Contain', 'rsaddon' ),",
+            "\t\t\t'fill' => esc_html__( 'Fill', 'rsaddon' ),",
+            "\t\t\t'none' => esc_html__( 'None', 'rsaddon' ),",
+            "\t\t\t'scale-down' => esc_html__( 'Scale Down', 'rsaddon' ),",
+            "\t\t],",
+            "\t\t'selectors' => [",
+            "\t\t\t'{{WRAPPER}} $2 img' => 'object-fit: {{VALUE}} !important;',",
+            "\t\t],",
+            "\t]",
+            ");",
+            "",
+            "\\$this->add_control(",
+            "\t'$1_object_position',",
+            "\t[",
+            "\t\t'label' => esc_html__( 'Object Position', 'rsaddon' ),",
+            "\t\t'type' => Controls_Manager::SELECT,",
+            "\t\t'default' => '',",
+            "\t\t'options' => [",
+            "\t\t\t'' => esc_html__( 'Default', 'rsaddon' ),",
+            "\t\t\t'center center' => esc_html__( 'Center Center', 'rsaddon' ),",
+            "\t\t\t'center left' => esc_html__( 'Center Left', 'rsaddon' ),",
+            "\t\t\t'center right' => esc_html__( 'Center Right', 'rsaddon' ),",
+            "\t\t\t'top center' => esc_html__( 'Top Center', 'rsaddon' ),",
+            "\t\t\t'top left' => esc_html__( 'Top Left', 'rsaddon' ),",
+            "\t\t\t'top right' => esc_html__( 'Top Right', 'rsaddon' ),",
+            "\t\t\t'bottom center' => esc_html__( 'Bottom Center', 'rsaddon' ),",
+            "\t\t\t'bottom left' => esc_html__( 'Bottom Left', 'rsaddon' ),",
+            "\t\t\t'bottom right' => esc_html__( 'Bottom Right', 'rsaddon' ),",
+            "\t\t],",
+            "\t\t'selectors' => [",
+            "\t\t\t'{{WRAPPER}} $2 img' => 'object-position: {{VALUE}} !important;',",
+            "\t\t],",
+            "\t]",
+            ");",
+            ""
+        ],
+        "description": "Elementor Object Fit Control"
     },
     "Elementor Custom Control: Content Button": {
         "prefix": "elc_button_content",
