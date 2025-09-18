@@ -204,7 +204,7 @@ elc_repeater_multilevel_markup | Repeater Multi Level Markup
 elc_position_maker | Position Maker Controls
 elc_display_css_control | Display CSS Control e.g. flex,block
 elc_object_fit_control | Object Fit Control for images and videos
-elc_background_image_control | Backgroiund controls for images
+elc_background_image_control | Background controls for images
 elc_overflow_control | Overflow controls
 elc_zindex_control | Z-Index Control
 elc_opacity_control | Opacity Control
