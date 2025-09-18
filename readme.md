@@ -206,5 +206,8 @@ elc_display_css_control | Display CSS Control e.g. flex,block
 elc_object_fit_control | Object Fit Control for images and videos
 elc_background_image_control | Backgroiund controls for images
 elc_overflow_control | Overflow controls
+elc_zindex_control | Z-Index Control
+elc_opacity_control | Opacity Control
+elc_blur_backdrop_control | Backdrop filter blur controls
 elc_add_render_attr | Markup: Add Render Attribute
 elc_print_render_attr | Markup: Print Render Attribute
