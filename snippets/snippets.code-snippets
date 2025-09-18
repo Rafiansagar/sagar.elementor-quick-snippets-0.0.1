@@ -3138,9 +3138,9 @@
         ],
         "description": "Elementor Object Fit Control"
     },
-    // Backgroiund controls for images
+    // Background fit controls for images
     "Elementor Markup: Add Background Image Control": {
-        "prefix": "elc_background_image_control",
+        "prefix": "elc_background_fit_controls",
         "body": [
             "\\$this->add_control(",
             "\t'$1_bg_size',",
@@ -3222,7 +3222,7 @@
             ");",
             ""
         ],
-        "description": "Elementor Background Image Control"
+        "description": "Elementor Background Image Fit Control"
     },
     // Overflow controls
     "Elementor Markup: Add Overflow Control": {
@@ -3249,6 +3249,81 @@
             ""
         ],
         "description": "Elementor Overflow Control"
+    },
+    // Z-Index controls
+    "Elementor Markup: Add Z-Index Slider Control": {
+        "prefix": "elc_zindex_control",
+        "body": [
+            "\\$this->add_control(",
+            "\t'$1_zindex_control',",
+            "\t[",
+            "\t\t'label' => esc_html__( 'Z-Index', 'rsaddon' ),",
+            "\t\t'type' => Controls_Manager::SLIDER,",
+            "\t\t'range' => [",
+            "\t\t\t'px' => [",
+            "\t\t\t\t'min' => -999,",
+            "\t\t\t\t'max' => 999,",
+            "\t\t\t\t'step' => 1,",
+            "\t\t\t],",
+            "\t\t],",
+            "\t\t'selectors' => [",
+            "\t\t\t'{{WRAPPER}} $2' => 'z-index: {{SIZE}};',",
+            "\t\t],",
+            "\t]",
+            ");",
+            ""
+        ],
+        "description": "Elementor Z-Index Slider Control"
+    },
+    // Opacity controls
+    "Elementor Markup: Add Opacity Control": {
+        "prefix": "elc_opacity_control",
+        "body": [
+            "\\$this->add_control(",
+            "\t'$1_opacity_control',",
+            "\t[",
+            "\t\t'label' => esc_html__( 'Opacity', 'rsaddon' ),",
+            "\t\t'type' => Controls_Manager::SLIDER,",
+            "\t\t'range' => [",
+            "\t\t\t'px' => [",
+            "\t\t\t\t'min' => 0,",
+            "\t\t\t\t'max' => 10,",
+            "\t\t\t\t'step' => 0.1,",
+            "\t\t\t],",
+            "\t\t],",
+            "\t\t'selectors' => [",
+            "\t\t\t'{{WRAPPER}} $2' => 'opacity: {{SIZE}};',",
+            "\t\t],",
+            "\t]",
+            ");",
+            ""
+        ],
+        "description": "Elementor Opacity Slider Control"
+    },
+    // Backdrop filter blur controls
+    "Elementor Markup: Add Backdrop Blur Control": {
+        "prefix": "elc_blur_backdrop_control",
+        "body": [
+            "\\$this->add_control(",
+            "\t'$1_filter_blur_control',",
+            "\t[",
+            "\t\t'label' => esc_html__( 'Backdrop Blur', 'rsaddon' ),",
+            "\t\t'type' => Controls_Manager::SLIDER,",
+            "\t\t'range' => [",
+            "\t\t\t'px' => [",
+            "\t\t\t\t'min' => 0,",
+            "\t\t\t\t'max' => 100,",
+            "\t\t\t\t'step' => 1,",
+            "\t\t\t],",
+            "\t\t],",
+            "\t\t'selectors' => [",
+            "\t\t\t'{{WRAPPER}} $2' => 'backdrop-filter: blur({{SIZE}}px);',",
+            "\t\t],",
+            "\t]",
+            ");",
+            ""
+        ],
+        "description": "Elementor Backdrop Filter Blur Slider Control"
     },
     // Button controls
     "Elementor Custom Control: Content Button": {
