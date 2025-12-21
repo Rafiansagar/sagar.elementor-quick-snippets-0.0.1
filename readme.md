@@ -6,7 +6,7 @@ or
 ```
 %USERPROFILE%\.vscode\extensions\
 ```
-Put "sagar.elementor-quick-snippets-0.0.1" folder here.
+Put "sagar.elementor-quick-snippets-0.0.1" folder here. Now check vscode extation, it should appeare now but if not appearing then change the folder name to "sagar.elementor-snippets-0.0.1".
 
 # elementor-quick-snippets
 
