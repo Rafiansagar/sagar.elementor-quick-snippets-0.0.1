@@ -4485,6 +4485,28 @@
         ],
         "description": "Elementor Custom Control: Repeater Multi Level Markup"
     },
+    // Conditions
+    "Elementor Conditions: relation check": {
+        "prefix": "elc_conditions_relation",
+        "body": [
+            "'conditions' => [",
+            "\t'relation' => 'or',",
+            "\t'terms' => [",
+            "\t\t[",
+            "\t\t\t'name' => '$1background',",
+            "\t\t\t'operator' => '!==',",
+            "\t\t\t'value' => '',",
+            "\t\t],",
+            "\t\t[",
+            "\t\t\t'name' => '$2border',",
+            "\t\t\t'operator' => '!==',",
+            "\t\t\t'value' => '',",
+            "\t\t],",
+            "\t],",
+            "],"
+        ],
+        "description": "Elementor conditions: relation check"
+    },
     // Render Attribute
     "Elementor Markup: Add Render Attribute": {
         "prefix": "elc_add_render_attr",
